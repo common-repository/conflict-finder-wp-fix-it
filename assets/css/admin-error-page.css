@@ -1,0 +1,34 @@
+.troubleshoot_button_class {
+    float: left;
+    background-color: #3b657d;
+    color: #fff;
+    text-decoration: none;
+    max-width: 250px;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+    border-radius: 8px;
+    border: solid #ccc 1px;
+    height: 35px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+        .troubleshoot_button_class:hover {
+            background-color: #00D78B;
+            color: #fff;
+        }
+        #conflict_crash_reset {
+            font-size: 23px !important;
+            background: #f99568 !important;
+            border: solid #ccc 1px !important;
+            border-radius: 8px !important;
+            text-transform: uppercase !important;
+            height: 53px !important;
+            color: #fff !important;
+            display: block;
+            margin: 0 auto !important;
+            transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+        }
+        #conflict_crash_reset:hover {
+            background-color: #00D78B !important; /* Change background color on hover */
+        }
